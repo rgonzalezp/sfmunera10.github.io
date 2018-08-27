@@ -4,7 +4,7 @@ window.onload = function(){
   var request = new XMLHttpRequest();
   // var api_key = '&APPID=635dd3ae1a7fae5cd94844223f8bd1ea';
   //Genera una nueva conexión, gracias a la petición GET que se hace al endpoint.
-  request.open('GET','http://api.openweathermap.org/data/2.5/weather?id=3688685&APPID=635dd3ae1a7fae5cd94844223f8bd1ea',true);
+  request.open('GET','https://api.openweathermap.org/data/2.5/weather?id=3688685&APPID=635dd3ae1a7fae5cd94844223f8bd1ea',true);
   request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response);
