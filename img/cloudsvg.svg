@@ -1,0 +1,36 @@
+<svg width="582" height="402" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_20">
+   <ellipse ry="49" rx="50" id="svg_1" cy="182" cx="252" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_7" cy="156" cx="298" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_8" cy="163" cx="355" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_9" cy="208" cx="311" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_10" cy="206" cx="385" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="27.5" rx="37.5" id="svg_11" cy="187.5" cx="250.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse stroke="#000" ry="53.5" rx="50.999997" id="svg_12" cy="210.5" cx="389.999997" stroke-opacity="null" stroke-width="0" fill="#aaffff"/>
+   <ellipse stroke="#000" ry="53.5" rx="50.999997" id="svg_13" cy="214.5" cx="313.999997" stroke-opacity="null" stroke-width="0" fill="#aaffff"/>
+   <ellipse stroke="#000" ry="53.5" rx="50.999997" id="svg_14" cy="205.5" cx="280.999997" stroke-opacity="null" stroke-width="0" fill="#aaffff"/>
+   <ellipse stroke="#000" ry="53.5" rx="50.999997" id="svg_15" cy="216.5" cx="229.999997" stroke-opacity="null" stroke-width="0" fill="#aaffff"/>
+   <ellipse ry="49" rx="50" id="svg_16" cy="203" cx="233" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_17" cy="210" cx="314" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse ry="49" rx="50" id="svg_18" cy="189" cx="290" stroke-width="0" stroke="#000" fill="#ffffff"/>
+   <ellipse stroke="#000" ry="51.499999" rx="51.499999" id="svg_19" cy="199.499999" cx="390.499999" stroke-width="0" fill="#ffffff"/>
+  </g>
+  <path id="svg_21" d="m335.5,158" opacity="0.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <g id="svg_2">
+   <g display="none" id="canvasGrid">
+    <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="1" height="400" width="580" id="svg_3"/>
+   </g>
+  </g>
+ </g>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-2" width="584" height="404" id="canvas_background" fill="none"/>
+ </g>
+</svg>

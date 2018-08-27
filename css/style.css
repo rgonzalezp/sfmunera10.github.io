@@ -1,0 +1,396 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Cutive Mono';
+}
+
+a{
+  text-decoration: none !important;
+}
+
+h4,p{
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.main_feed{
+  overflow-y: auto;
+  height: 100%;
+}
+
+.profile_pic{
+  margin: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.bots-place{
+  float: left;
+  width: 25%;
+  height: 100%;
+  border: none;
+}
+
+.main-feed{
+  float: right;
+  width: 75%;
+  height: 100%;
+  border: none;
+}
+
+.grass, .sky, .road{
+  position: relative;
+}
+
+.upperbot{
+  background-color: rgba(0,0,0,0);
+  margin: none;
+  border: none;
+  position: absolute;
+  left: -1000px;
+  width: 70%;
+  animation: bot 1s ease-out 1s forwards;
+  /* box-shadow: 4px 10px 5px #343434; */
+  top: 1px;
+  height: 105%;
+  align-items: center;
+  text-align: center;
+}
+
+.upperbot h2, .upperbot p{
+  color: white !important;
+}
+
+.sky{
+  height: 80%;
+  z-index: 950;
+}
+
+.grass{
+  height: 5%;
+  z-index: 900;
+}
+
+.upperroad{
+  height: 5%;
+  z-index: 950;
+}
+
+.lowerroad{
+  height: 10%;
+}
+
+.cloud{
+  position: absolute;
+}
+
+.cloud:nth-child(1){
+  top: -45px;
+  left: -100px;
+  width: 750px;
+}
+
+.cloud:nth-child(2){
+  width: 650px;
+  opacity: 0.8;
+  transform: rotateY(180deg);
+  animation: wind 70s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.cloud:nth-child(3){
+  opacity: 0.6;
+  width: 590px;
+  animation: wind 40s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.cloud:nth-child(4){
+  width: 450px;
+  opacity: 0.9;
+  transform: rotateY(180deg);
+  animation: wind 60s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.cloud:nth-child(5){
+  width: 370px;
+  opacity: 0.3;
+  animation: wind 80s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.cloud:nth-child(6){
+  opacity: 0.5;
+  width: 350px;
+  transform: rotateY(160deg);
+  animation: wind 30s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.cloud:nth-child(7){
+  width: 600px;
+  opacity: 0.5;
+  animation: wind 100s linear infinite reverse;
+  animation-fill-mode: forwards;
+}
+
+.menustuff{
+  height: 107px;
+  margin: 25px;
+  color: white;
+  border-radius: .4em;
+  opacity: 0.9;
+  padding: 5px;
+}
+
+.whoami{
+  width: 40%;
+}
+
+.folder{
+  width: 48%;
+}
+
+.hobbies{
+  width: 18%;
+}
+
+#banner_container{
+  position: relative;
+}
+
+#banner_text{
+  color: white;
+  top: 40%;
+  left: 40%;
+  font-size: 40px !important;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#nav-bar{
+  display: none;
+}
+
+.banner_image{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+  opacity: 0.2;
+}
+
+.description_h h2{
+  margin: 30px;
+  color: dimgrey;
+  font-size: 32px !important;
+}
+
+.whoami_description p{
+  margin: 30px;
+  font-size: 20px !important;
+}
+
+.progress-squares{
+  margin: 30px;
+}
+
+.progress-img{
+  margin-bottom:10px;
+  height: 60%;
+  width: 60%;
+}
+
+@keyframes wind {
+  from{left: -500px}
+  to{left: 100%}
+}
+
+@keyframes bot{
+  from{left: -1000px}
+  to{left: 15%}
+}
+
+/* ***********************************************************
+Aquí empieza el uso de propiedad ajena de uso libre, tomada de
+https://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates
+para el template del footer y https://bootsnipp.com/snippets/nrQWa
+para el snippet de barra de progreso circular. Todo el código distinto a estos
+elementos mencionados es propiedad de Santiago Múnera.
+*********************************************************** */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  #ffffff;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #ffffff;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #ffffff;
+	color: #696969;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+  color: #ffffff;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #ffffff;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #696969;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+  .bots-place{
+    float: none;
+    width: 0%;
+    height: 0%;
+    border: none;
+  }
+  .main-feed{
+    float: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  #banner_text{
+    color: white;
+    top: 40%;
+    left: 40%;
+    font-size: 10px !important;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  #nav-bar{
+    display:block;
+  }
+}
