@@ -16,7 +16,7 @@ Create a portfolio within a responsive, stylish and functional website while con
 1. Fork or clone the repository
 2. Install npm 
 3. Add npm's quick server through: npm install http-server
-4. Go to project directory in npm and use http-server command in the terminal to deploy it (Check for the ip given in the terminal)
+4. Go to project directory in npm and use http-server command in the terminal to launch it (Check for the ip given in the terminal)
 
 ### Authors: 
 Santiago Felipe Múnera Dávila 
