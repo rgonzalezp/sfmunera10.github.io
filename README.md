@@ -13,7 +13,10 @@ Create a portfolio within a responsive, stylish and functional website while con
 - Javascript: controller for API endpoint calls
 
 ### How to run the site
-Just access to this URL with your preferred browser: https://sfmunera10.github.io/
+1. Fork or clone the repository
+2. Install npm 
+3. Add npm's quick server through: npm install http-server
+4. Go to project directory in npm and use http-server command in the terminal to deploy it (Check for the ip given in the terminal)
 
 ### Authors: 
 Santiago Felipe Múnera Dávila 
