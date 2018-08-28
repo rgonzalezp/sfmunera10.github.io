@@ -11,6 +11,7 @@ Create a portfolio within a responsive, stylish and functional website while con
 - CSS3 : includes animations, transitions
 - Bootstrap 4: uses default grid system
 - Javascript: controller for API endpoint calls
+- Open Weather API: provide the API endpoints
 
 ### How to run the site
 1. Fork or clone the repository
