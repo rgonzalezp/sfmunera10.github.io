@@ -1,0 +1,1 @@
+You should delete this folder and add the image to the imgs folder, this structure would make more sense
