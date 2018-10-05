@@ -9,7 +9,7 @@ window.onload = function(){
     // Begin accessing JSON data here
     var data = JSON.parse(this.response);
     var iconStr = data.weather[0].icon +'';
-
+//dont use switch case
     if (request.status >= 200 && request.status < 400) {
       switch(iconStr){
         case '01d':
